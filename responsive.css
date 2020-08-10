@@ -1,0 +1,228 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.contmidle{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+
+.logo img{
+	width:275px;
+	height:100px;
+}
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.contmidle{
+	width:95%;
+	
+}
+.logo{
+	margin-top:90px;
+	margin-left:30%;
+}
+	
+.logo img{
+	width:275px;
+	height:100px;
+}	
+.cont{
+	width:740px;
+	margin:0 auto;	
+	height:40px;
+	margin-top:50px;
+}	
+.menu ul li{
+	margin-left:10px;	
+}	
+.menu ul li a{
+	padding:0px 14px;
+}
+}
+
+#selectnav1{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.contmidle{
+	width:95%;
+	
+}
+.logo{
+	margin-top:10%;
+	margin-left:33.5%;
+}
+
+.logo img{
+	width:50%;
+	height:auto;
+}	
+	
+#menures{
+	display:none;
+}
+	
+#selectnav1{
+	width:90%;
+	margin:0 auto;
+	display:block;
+}
+.cont{
+	width:90%;
+	margin:0 auto;	
+	height:40px;
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+.contmidle{
+	width:95%;
+	
+}
+.logo{
+	margin-top:10%;
+	margin-left:33.5%;
+}
+
+.logo img{
+	width:50%;
+	height:auto;
+}	
+	
+#menures{
+	display:none;
+}
+	
+#selectnav1{
+	width:90%;
+	margin:0 auto;
+	display:block;
+}
+.cont{
+	width:90%;
+	margin:0 auto;	
+	height:40px;
+	
+}	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+.contmidle{
+	width:95%;
+	
+}
+.logo{
+	margin-top:10%;
+	margin-left:33.5%;
+}
+
+.logo img{
+	width:50%;
+	height:auto;
+}	
+	
+#menures{
+	display:none;
+}
+	
+#selectnav1{
+	width:90%;
+	margin:0 auto;
+	display:block;
+}
+.cont{
+	width:90%;
+	margin:0 auto;	
+	height:40px;
+	
+}
+}
