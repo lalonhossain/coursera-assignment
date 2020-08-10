@@ -140,20 +140,7 @@
 	</footer>
 	</div>
 </div>
-<!-- jQuery Min Version -->	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
-		
-<!--JS File For Responsive Menu -->	
-		<script src="js/responsive-menu.js"></script>
-		
-<script>
-  domready(function(){
-			selectnav('menures', {
-		label: '*** Select Menu *** '
-	});
-	prettyPrint()
-		})
-</script>
+
 <!--JS Files For Responsive Menu Ends Here -->		
 </body>
 </html>
